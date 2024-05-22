@@ -1,0 +1,69 @@
+form{
+	width:50vw;
+	margin-left: 25vw;
+	text-align: left; 
+	justify-content: center;
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 15px 10px 10px;
+}
+.input-padrao{
+	display: block;
+	margin: 0 10px 20px;
+	padding: 10px 25px;
+	width: 91%;
+}
+
+select{
+	margin: 0 10px 0;
+}
+.checkbox{
+	margin: 20px 10px;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s ;
+	cursor: pointer;
+	margin: 20px 30px 40px;
+}
+.enviar:hover{
+	background: darkorange;
+	transform: scale(1.1);
+}
+
+table{
+	margin: 0 15px 15px;
+}
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+td, th{
+	padding: 15px 8px;
+	border: 1px solid #555555;
+}
+
+
+@media screen and (max-width: 500px){ /*Responsividade para celular*/
+    .contato{
+        display: none;
+    }
+	.rodape{
+		color: white;
+    	background: #e5e5e5;
+	}
+
+	
+}
+

@@ -1,0 +1,15 @@
+.banner__somos{
+    background: url(../../img/banner_somos.png) no-repeat center / cover;
+    height: 500px;
+    width: 1349px;
+}
+@media screen and (min-width: 0) {
+    .banner__somos{
+        height: 1349x;
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner__somos{
+        height: 500px;
+    }
+}

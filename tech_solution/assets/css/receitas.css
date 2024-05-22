@@ -1,0 +1,39 @@
+.sobre__receitas{
+    text-align: center;
+    font-family: Pacifico, cursive;
+    color: #8d0606;
+}
+.receitas{
+    background: #e5e5e5;
+    display: flex;
+ 
+}
+.receitas div:hover{
+	transform: scale(1.1);
+}
+
+@media screen and (min-width: 0){ /*Responsividade para celular*/
+    .receitas{
+        padding: 5rem 0 0 1rem;
+    }
+}
+@media screen and (min-width: 768px) {/*Responsividade para tablet*/
+    .receitas{
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+@media screen and (min-width: 992px) {/*Responsividade para computadores*/
+    .receitas{
+        padding: 5rem 0 0 5rem;
+    }
+}
+@media screen and (min-width: 0) {
+    .sobre__receitas{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sobre__receitas{
+        font-size: 3.1875rem;
+    }
+}
